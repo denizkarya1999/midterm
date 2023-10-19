@@ -11,7 +11,7 @@ public class quraticsolver {
 			System.out.println("This equation " + a + "x^2 + " + b + "x + " + c + " has no solution");
 		else {
 			System.out.println(
-					"The solution for the equation (Warning it involves some complex math. It is good. Yes it is really good.)"
+					"The solution for the equation (Warning it involves some complex math. Please get a good grade)"
 							+ a + "x^2 + " + b + "x + " + c + " are");
 			System.out.println((-b + Math.sqrt(b * b - 4 * a * c)) / 2 * a + " and "
 					+ (-b - Math.sqrt(b * b - 4 * a * c)) / 2 * a);
